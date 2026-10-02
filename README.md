@@ -117,3 +117,11 @@ All scroll-triggered animations use **Framer Motion**:
 - `motion.section` with `whileInView` for staggered fade-ups
 - `motion.button` / `motion.a` with `whileHover` for interactive scale/glow
 - Overlay menu uses `AnimatePresence` for enter/exit transitions
+
+## Deploy
+
+This site is configured for **static export** (`output: "export"` in `next.config.ts`). The production build writes to `out/` and deploys as-is to Cloudflare Pages, Netlify, or any static host.
+
+---
+
+Built by [Girish Lade](https://github.com/girishlade111) — part of [LadeStack](https://ladestack.in)
